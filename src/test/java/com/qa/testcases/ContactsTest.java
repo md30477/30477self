@@ -62,7 +62,7 @@ public ContactsTest()
 		contacts.clickonContacts(Extenttest);
 		
 	}
-	@Test(alwaysRun = true)
+	//@Test(alwaysRun = true)
     public void createContacts()
 	{
 		Extenttest = ExtentTestManager.startTest("createContacts", "createContacts.");
