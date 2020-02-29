@@ -9,7 +9,7 @@ git credentialsId: '14d3bd9c-7505-43f3-97eb-37a435a99336', url: 'https://github.
 }
 stage("Execute Regression Test Suite"){
 steps{
-  bat 'mvn clean test'
+  bat 'mvn verify'
 
 }
 }
